@@ -1,0 +1,56 @@
+.imgBoton {
+  width: 50px;
+  height: 50px;
+}
+
+.burbuja1 {
+  position: absolute;
+  padding-left: 5px;
+  padding-right: 5px;
+  left: 0;
+  top: 0;
+  width: 300px;
+  height: 100px;
+  text-align: center;
+  background-color: #FDBF52;
+  border-radius: 10px;
+  box-shadow: 1px 1px 20px #C2C0B6;
+  display: none;
+}
+
+.burbuja2 {
+  position: absolute;
+  padding-left: 5px;
+  padding-right: 5px;
+  left: 0;
+  top: 0;
+  width: 300px;
+  height: 100px;
+  text-align: center;
+  background-color: #FDBF52;
+  border-radius: 10px;
+  box-shadow: 1px 1px 20px #C2C0B6;
+  display: none;
+}
+
+.lamparita1 {
+  left: 200px;
+  top: 300px;
+  position: absolute;
+}
+
+.lamparita2 {
+  left: 600px;
+  top: 300px;
+  position: absolute;
+}
+
+.lamparita1:hover .burbuja1 {
+  display: block;
+  color: black; /*color del txt*/
+}
+
+.lamparita2:hover .burbuja2 {
+  display: block;
+  color: black; /*color del txt*/
+}
